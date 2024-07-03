@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Statistics</title>
+    <link rel="stylesheet" href="mycss.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <img class="invert" src="assets/img/lines.svg" alt="">
+            </li>
+            <li>
+                <input id = "search" type="text" placeholder="Search">
+            </li>
+        </ul>
+        <div class="buttons">
+            <button class="Contact rounded">Contact Us</button>
+            <button class="About rounded">About Us </button>
+        </div>
+    </nav>
+
+
+    <main>
+        <section class="first">
+      
+            <div class="text">
+                <h1>Text Statistics</h1>
+            </div>
+            
+            <div class="seperator_Line"></div>
+
+            <div class="info">
+                Get information about a text, the number of characters, the number of words, its size in bytes, ...
+            </div>
+            
+            <div class="inner_box">
+
+                <div class="type">
+                    <textarea name="type_here" id="type_here" placeholder="Your text ..." rows="8" cols="73"></textarea>
+                </div>
+                
+                <div class="statistics">
+                    <!-- <p>Character count: <span id="charCount">0</span></p>
+                    <p>Word count: <span id="wordCount">0</span></p>
+                    <p>Line count: <span id="lineCount">0</span></p>
+                    <p>Byte size: <span id="byteSize">0</span> Bytes</p>
+                    <p>Sentence count: <span id="sentenceCount">0</span></p>
+                    <p>Paragraph count: <span id="paragraphCount">0</span></p>
+                    <p>Average word length: <span id="avgWordLength">0</span></p>
+                    <p>Estimated reading time: <span id="readingTime">0 mins</span></p>
+                    <p>Longest word: <span id="longestWord">N/A</span></p>
+                    <p>Most frequent word: <span id="mostFrequentWord">N/A</span></p> -->
+                    <div class="character">
+                        <p class="paragraph">Character count :</p>
+                        <div id="charCount">0</div>
+                    </div>
+                    <div class="word">
+                        <p class="paragraph">word Count :</p>
+                        <div id="wordCount">0</div>
+                    </div>
+                    <div class="Byte">
+                        <p class="paragraph">Byte Size :</p>
+                        <div id="byteSize">0</div>
+                    </div>
+                    <div class="Sentence">
+                        <p class="paragraph">Sentence count:</p>
+                        <div id="sentenceCount">0</div>
+                    </div>
+                    <div class="Paragraph">
+                        <p class="paragraph">Paragraph Count:</p>
+                        <div id="paragraphCount">0</div>
+                    </div>
+                    <div class="word">
+                        <p class="paragraph">Average word length:</p>
+                        <div id="avgWordLength">0</div>
+                    </div>
+                    <div class="reading">
+                        <p class="paragraph">Average reading time:</p>
+                        <div id="readingTime">0</div>
+                    </div>
+                    <div class="longest">
+                        <p class="paragraph">Longest word:</p>
+                        <div id="longestWord">0</div>
+                    </div>
+                    <div class="frequent">
+                        <p class="paragraph">Most frequent word:</p>
+                        <div id="mostFrequentWord">0</div>
+                    </div>
+                </div>
+            </div>
+
+           
+        </section>
+    </main>
+   <script src="myscript.js"></script>
+</body>
+</html>
